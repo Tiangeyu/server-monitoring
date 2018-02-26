@@ -9,5 +9,5 @@ $ cd server/init  => npm start
 2- vue开发环境
 $ cd dataWeb => npm run dev
 
-username: admin
+username: admin;
 password: 123456
