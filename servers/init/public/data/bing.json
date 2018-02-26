@@ -1,0 +1,10 @@
+{
+    "data":[
+        {"value":335, "name":"POS机", "selected": true},
+        {"value":310, "name":"交换机"},
+        {"value":234, "name":"显示器"},
+        {"value":135, "name":"服务器"},
+        {"value":1000, "name":"主机"},
+        {"value":548, "name":"路由器"}
+    ]
+}

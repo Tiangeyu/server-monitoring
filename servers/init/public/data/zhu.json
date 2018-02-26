@@ -1,0 +1,69 @@
+{
+    "echart1" : {
+        "tooltip" : {
+            "trigger": "axis",
+            "axisPointer" : {            
+                "type" : "shadow"        
+            }
+        },
+        "legend": {
+            "data":["故障1","故障2","故障3"],
+            "textStyle": {
+                "color": "rgb(255, 255, 255)"
+            }
+        },
+        "grid": {
+            "left": "3%",
+            "right": "4%",
+            "bottom": "3%",
+            "containLabel": true
+        },
+        "xAxis" : [
+            {
+                "type" : "category",
+                "data" : ["POS机","交换机","显示器","服务器","主机","路由器"],
+                "axisLine":{
+                    "lineStyle":{
+                        "color": "pink"
+                    }
+                }
+            }
+        ],
+        "yAxis" : [
+            {
+                "type" : "value",
+                "axisLine":{
+                    "lineStyle":{
+                        "color": "pink"
+                    }
+                }
+            }
+        ],
+        "series" : [
+            {
+                "name":"故障1",
+                "type":"bar",
+                "barWidth" : 10,
+                "data":[320, 332, 501, 334, 390, 330]
+            },
+            {
+                "name":"故障2",
+                "type":"bar",
+                "barWidth" : 10,
+                "stack": "广告",
+                "data":[120, 132, 101, 134, 90, 230]
+            },
+            {
+                "name":"故障3",
+                "type":"bar",
+                "barWidth" : 10,
+                "stack": "广告",
+                "data":[220, 182, 191, 234, 290, 230]
+            }
+        ],
+        "textStyle": {
+            "color": "rgb(255, 255, 255)"
+        }
+    }
+}
+

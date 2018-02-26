@@ -1,0 +1,270 @@
+{
+    "result": "000",
+    "data": {
+        "parents": {
+            "id": 1,
+            "name": "民生银行总行",
+            "status": 0,
+            "type": 0,
+            "xLocation": "-65",
+            "yLocation": "-50"
+        },
+        "edges": [
+            {
+                "id": 2,
+                "parentId": 1,
+                "type": 0
+            },
+            {
+                "id": 3,
+                "parentId": 1,
+                "type": 0
+            },
+            {
+                "id": 4,
+                "parentId": 1,
+                "type": 0
+            },
+            {
+                "id": 5,
+                "parentId": 1,
+                "type": 0
+            },
+            {
+                "id": 6,
+                "parentId": 1,
+                "type": 0
+            },
+            {
+                "id": 7,
+                "parentId": 1,
+                "type": 0
+            },
+            {
+                "id": 8,
+                "parentId": 2,
+                "type": 0
+            },
+            {
+                "id": 9,
+                "parentId": 2,
+                "type": 0
+            },
+            {
+                "id": 10,
+                "parentId": 3,
+                "type": 0
+            },
+            {
+                "id": 11,
+                "parentId": 3,
+                "type": 0
+            },
+            {
+                "id": 12,
+                "parentId": 4,
+                "type": 0
+            },
+            {
+                "id": 13,
+                "parentId": 4,
+                "type": 0
+            },
+            {
+                "id": 14,
+                "parentId": 5,
+                "type": 0
+            },
+            {
+                "id": 15,
+                "parentId": 5,
+                "type": 0
+            },
+            {
+                "id": 16,
+                "parentId": 6,
+                "type": 0
+            },
+            {
+                "id": 17,
+                "parentId": 6,
+                "type": 0
+            },
+            {
+                "id": 18,
+                "parentId": 7,
+                "type": 0
+            },
+            {
+                "id": 19,
+                "parentId": 7,
+                "type": 0
+            }
+        ],
+        "nodes": [
+            {
+                "id": 2,
+                "name": "POS机",
+                "parentId": 1,
+                "status": 1,
+                "type": 1,
+                "xLocation": "-278",
+                "yLocation": "83"
+            },
+            {
+                "id": 3,
+                "name": "交换机",
+                "parentId": 1,
+                "status": 1,
+                "type": 2,
+                "xLocation": "-281",
+                "yLocation": "-141"
+            },
+            {
+                "id": 4,
+                "name": "显示器",
+                "parentId": 1,
+                "status": 1,
+                "type": 3,
+                "xLocation": "195",
+                "yLocation": "-143"
+            },
+            {
+                "id": 5,
+                "name": "服务器",
+                "parentId": 1,
+                "status": 1,
+                "type": 4,
+                "xLocation": "-62",
+                "yLocation": "189"
+            },
+            {
+                "id": 6,
+                "name": "主机",
+                "parentId": 1,
+                "status": 1,
+                "type": 5,
+                "xLocation": "-67",
+                "yLocation": "-301"
+            },
+            {
+                "id": 7,
+                "name": "路由器",
+                "parentId": 1,
+                "status": 1,
+                "type": 6,
+                "xLocation": "208",
+                "yLocation": "81"
+            },
+            {
+                "id": 8,
+                "name": "MSPSJ10000100001",
+                "parentId": 2,
+                "status": 1,
+                "type": 1,
+                "xLocation": "-434",
+                "yLocation": "28"
+            },
+            {
+                "id": 9,
+                "name": "MSPSJ10000100002",
+                "parentId": 2,
+                "status": 1,
+                "type": 1,
+                "xLocation": "-444",
+                "yLocation": "149"
+            },
+            {
+                "id": 10,
+                "name": "MSJHJ10000100001",
+                "parentId": 3,
+                "status": 2,
+                "type": 2,
+                "xLocation": "-441",
+                "yLocation": "-75"
+            },
+            {
+                "id": 11,
+                "name": "MSJHJ10000100002",
+                "parentId": 3,
+                "status": 1,
+                "type": 2,
+                "xLocation": "-450",
+                "yLocation": "-211"
+            },
+            {
+                "id": 12,
+                "name": "MSXSQ10000100001",
+                "parentId": 4,
+                "status": 3,
+                "type": 3,
+                "xLocation": "365",
+                "yLocation": "-79"
+            },
+            {
+                "id": 13,
+                "name": "MSXSQ10000100002",
+                "parentId": 4,
+                "status": 2,
+                "type": 3,
+                "xLocation": "362",
+                "yLocation": "-212"
+            },
+            {
+                "id": 14,
+                "name": "MSFWQ10000100001",
+                "parentId": 5,
+                "status": 1,
+                "type": 4,
+                "xLocation": "114",
+                "yLocation": "266"
+            },
+            {
+                "id": 15,
+                "name": "MSFWQ10000100002",
+                "parentId": 5,
+                "status": 1,
+                "type": 4,
+                "xLocation": "-226",
+                "yLocation": "273"
+            },
+            {
+                "id": 16,
+                "name": "MSZJ10000100001",
+                "parentId": 6,
+                "status": 2,
+                "type": 5,
+                "xLocation": "130",
+                "yLocation": "-304"
+            },
+            {
+                "id": 17,
+                "name": "MSZJ10000100002",
+                "parentId": 6,
+                "status": 3,
+                "type": 5,
+                "xLocation": "-232",
+                "yLocation": "-305"
+            },
+            {
+                "id": 18,
+                "name": "MSLYQ10000100001",
+                "parentId": 7,
+                "status": 1,
+                "type": 6,
+                "xLocation": "362",
+                "yLocation": "150"
+            },
+            {
+                "id": 19,
+                "name": "MSLYQ10000100002",
+                "parentId": 7,
+                "status": 2,
+                "type": 6,
+                "xLocation": "361",
+                "yLocation": "17"
+            }
+        ]
+    },
+    "msg": ""
+}

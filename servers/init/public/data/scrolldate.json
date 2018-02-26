@@ -1,0 +1,45 @@
+{
+    "list":[
+        {
+            "orderStatus":"1",
+            "equipNo": "民生总行POS机01",
+            "storeName": "北京睿银科技有限公司"
+        },{
+            "equipNo":"交换机",
+            "storeName": "张三",
+            "orderStatus": "1"
+        },{
+            "equipNo":"显示器",
+            "storeName": "张三",
+            "orderStatus": "1"
+        },{
+            "equipNo":"服务器",
+            "storeName": "李四",
+            "orderStatus": "1"
+        },{
+            "equipNo":"主机",
+            "storeName": "李四",
+            "orderStatus": "0"
+        },{
+            "equipNo":"路由器",
+            "storeName": "李四",
+            "orderStatus": "2"
+        },{
+            "equipNo":"pos机",
+            "storeName": "王五",
+            "orderStatus": "2"
+        },{
+            "equipNo":"交换机",
+            "storeName": "王五",
+            "orderStatus": "3"
+        },{
+            "equipNo":"显示器",
+            "storeName": "王五",
+            "orderStatus": "4"
+        },{
+            "equipNo":"服务器",
+            "storeName": "张三",
+            "orderStatus": "3"
+        }
+    ]
+}

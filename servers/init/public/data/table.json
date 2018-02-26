@@ -1,0 +1,56 @@
+{
+    "data":{
+        "tableTitle":"北京机构关键环境指标",
+        "title":["指标名称","当前值","最近采集时间","正常区间"],
+        "rows": [
+            {
+                "Ename": "温度",
+                "Iname": "温度",
+                "nowValue": "23℃",
+                "collectTime": "2018-1-26",
+                "workSpace": "18℃~25℃",
+                "status": 0
+            },
+            {
+                "Ename": "湿度",
+                "Iname": "湿度",
+                "nowValue": "异常",
+                "collectTime": "2018-1-26",
+                "workSpace": "-",
+                "status": 0
+            },
+            {
+                "Ename": "烟感",
+                "Iname": "烟感",
+                "nowValue": "正常",
+                "collectTime": "2018-1-26",
+                "workSpace": "-",
+                "status": 0
+            },
+            {
+                "Ename": "电仪量",
+                "Iname": "A相电压",
+                "nowValue": "220W",
+                "collectTime": "2018-1-26",
+                "workSpace": "-",
+                "status": 0
+            },
+            {
+                "Ename": "电仪量",
+                "Iname": "B相电压",
+                "nowValue": "230W",
+                "collectTime": "2018-1-26",
+                "workSpace": "-",
+                "status": 1
+            },
+            {
+                "Ename": "电仪量",
+                "Iname": "C相电压",
+                "nowValue": "220W",
+                "collectTime": "2018-1-26",
+                "workSpace": "-",
+                "status": 0
+            }
+        ]
+    }
+}
