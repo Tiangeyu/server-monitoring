@@ -69,11 +69,11 @@ export default {
     },
     methods:{
         getData(){
-           // this.$http.get('/datas', {params: {'type' : this.type}}).then((res)=>{  
-           this.$http.get('/minsheng-poc-web/system/queryStatisFaultDatas', {params: {'orgId' : 1}}).then((res)=>{    
+            this.$http.get('/datas', {params: {'type' : this.type}}).then((res)=>{  
+        //   this.$http.get('/minsheng-poc-web/system/queryStatisFaultDatas', {params: {'orgId' : 1}}).then((res)=>{    
                 let data = [];
-                // for(let [key, value] of res.body.result.data.entries()){
-               for(let [key, value] of res.body.data.entries()){
+                 for(let [key, value] of res.body.result.data.entries()){
+            //   for(let [key, value] of res.body.data.entries()){
                      data.push({"value":value.value, "name": value.name})
                 }
                 let options = {

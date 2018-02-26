@@ -71,10 +71,10 @@ export default {
   },
   methods: {
     getDate() {   
-      this.$http.get("/minsheng-poc-web/system/queryOrgEquipmentFaultDatas", { params: { "orgId": 1 } }).then(res => {
-    // this.$http.get('/datas', {params: {'type' : this.type}}).then((res)=>{ 
-        let resDate = res.body.data;
-    //     let resDate = res.body.result.data;
+    //  this.$http.get("/minsheng-poc-web/system/queryOrgEquipmentFaultDatas", { params: { "orgId": 1 } }).then(res => {
+     this.$http.get('/datas', {params: {'type' : this.type}}).then((res)=>{ 
+    //    let resDate = res.body.data;
+         let resDate = res.body.result.data;
         // 拓扑图存在  对比更新
         if(this.graph){
           // 仅涉及状态变换

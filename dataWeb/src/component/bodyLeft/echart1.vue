@@ -46,8 +46,8 @@ export default {
     },
     methods:{
         getData(){
-            this.$http.get('/minsheng-poc-web/system/queryStatisEquipmentFaultDatas', {params: {'orgId' : "1"}}).then((res)=>{ 
-            //this.$http.get('/datas', {params: {'type' : this.type}}).then((res)=>{       
+         //   this.$http.get('/minsheng-poc-web/system/queryStatisEquipmentFaultDatas', {params: {'orgId' : "1"}}).then((res)=>{ 
+            this.$http.get('/datas', {params: {'type' : this.type}}).then((res)=>{       
                
               //  this.myChart.setOption(res.body.result.echart1);
                 let option = {}; 
